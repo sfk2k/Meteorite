@@ -1,0 +1,17 @@
+<div class="row" style="text-align:center; background-color: navy; color: white;">
+  <h1>
+    Meteorite Explorer
+  </h1>
+</div>
+<!--Filter data grid-->
+
+<div class="row align-content-center">
+<ag-grid-angular 
+    style="width: 95%; height: 40em;" 
+    class="ag-theme-balham"
+    [enableFilter]="true"
+    [pagination]="true"
+    [rowData]="rowData" 
+    [columnDefs]="columnDefs">
+</ag-grid-angular>
+</div>
